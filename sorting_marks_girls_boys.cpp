@@ -87,7 +87,6 @@ int main() {
     int boyPointer = 0, girlPointer = 0;
 
     for (int i = 0; i < length; i++) {
-        // Handle equal grades
         if (boyPointer < boys && girlPointer < girls) {
             if (boysGrades[boyPointer] == girlsGrades[girlPointer]) {
                 classGrades[i] = girlsGrades[girlPointer];
